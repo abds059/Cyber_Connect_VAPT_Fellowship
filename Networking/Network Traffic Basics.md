@@ -29,9 +29,7 @@ Based on DNS logs, we can retrieve the following information:
 
 Since the DNS logs doesn't contain any more useful information so we will have to inspect DNS traffic deeply to make a meaningful conclusion.
 
-This scenario best describes why we need Network Traffic Analysis. 
-
-Firewalls and other network devices list DNS quieries and their responses but not content. Threat actors could, for example, use TXT records to send Command and Control instructions to a compromised system. We can discover this by inspecting the content of the DNS queries. 
+Firewalls and other network devices list DNS queries and their responses but not content. Threat actors could, for example, use TXT records to send Command and Control instructions to a compromised system. We can discover this by inspecting the content of the DNS queries. 
 
 The packet capture fragment below shows the content of a DNS reply that contains C2 commands:
 
@@ -67,7 +65,6 @@ From a SOC perspective, network traffic analysis helps:
 - Reconstructing attacks during incident response
 - Verifying and validating alerts
 
-
 Below are two more scenarios that illustrate the importance of network traffic analysis:
 
 - Based on the logs for an end-user system, the system began to deviate from its normal behavior around 4 PM UTC. Analyzing the network traffic going to and from this system, we found a suspicious HTTP request and were able to extract a suspicious ZIP-file
@@ -83,6 +80,8 @@ What is the name of the technique used to smuggle C2 commands via DNS?
 ---
 
 ## Task 3 - What Network Traffic We Can Observe ?
+
+
 
 ### Answer the questions below
 
