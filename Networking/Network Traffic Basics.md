@@ -84,5 +84,65 @@ What is the name of the technique used to smuggle C2 commands via DNS?
 
 ## Task 3 - What Network Traffic We Can Observe ?
 
+### Answer the questions below
+
+- Look at the HTTP example in the task and answer the following question: What is the size of the ZIP attachment included in the HTTP response? Note down the answer in bytes.
+
+    #### Answer:
+
+    `10485760`
+
+- Which attack do attackers use to try to evade an IDS?
+
+    `fragmentation`
+
+- What field in the TCP header can we use to detect session hijacking?
+
+    `sequence number`
+
+---
+
+## Task 4 - Network Traffic Sources and Flows
+
+### Answer the questions below
+
+- Which category of devices generates the most traffic in a network?
+
+    `endpoint`
+
+- Before an SMB session can be established, which service needs to be contacted first for authentication?
+
+    `kerberos`
+
+- What does TLS stand for?
+
+    `Transport Layer Security`
+
+---
+
+## Task 5 - How Can We Observe Network Traffic
+
+### Answer the questions below
+
+- What is the flag found in the HTTP traffic in scenario 1? The flag has the format THM{}.
 
 
+    #### Answer
+    
+    `THM{FoundTheMalware}`
+
+    #### Explanation
+
+    ![alt text](Images/Network%20Traffic%20Basics/Flag%201.png)
+
+- What is the flag found in the DNS traffic in scenario 2? The flag has the format THM{}.
+
+    #### Answer
+
+    `THM{C2CommandFound}`
+
+    #### Explanation
+
+    ![alt text](Images/Network%20Traffic%20Basics/Flag%202.png)
+
+---
