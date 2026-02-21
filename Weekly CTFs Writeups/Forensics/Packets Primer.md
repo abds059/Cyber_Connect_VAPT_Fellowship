@@ -14,12 +14,12 @@ Here we are given a file which we have to analyze and find the flag.
 
 After downloading the given file we open it in wireshark.
 
-![alt text](image-1.png)
+![alt text](/Weekly%20CTFs%20Writeups/Images/image-1.png)
 
 Upon analyzing the content closely we can observe one frame with `[PSH | ACK]` signifying some data is being pushed.
 
-![alt text](image-2.png)
+![alt text](/Weekly%20CTFs%20Writeups/Images/image-2.png)
 
 Upon clicking this frame the flag will be displayed 
 
-![alt text](image-3.png)
+![alt text](/Weekly%20CTFs%20Writeups/Images/image-3.png)
