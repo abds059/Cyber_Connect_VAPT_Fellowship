@@ -1,5 +1,7 @@
 # Network Traffic Basics
 
+![room completion](/Networking/Images/Network%20Traffic%20Basics/overview.png)
+
 ## Task 1 - Introduction
 
 Network Traffic Analysis is a process of capturing, inspecting and analyzing data as it flows in a network.  Its goal is to have complete visibility and understand what is communicated inside and outside the network.
